@@ -4,5 +4,8 @@
     <string name="username_label">UserName</string>
     <string name="password_label">Password</string>
     <string name="loging_label">Log In</string>
+    <string name="redirectHeader">Account Information</string>
+    <string name="redirectUsrLabel">UserName : </string>
+    <string name="RedirectPwdLabel">Password : </string>
     <string name="return_label">Return</string>
 </resources>

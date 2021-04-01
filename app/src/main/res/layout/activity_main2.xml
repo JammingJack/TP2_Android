@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/redirectHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:text="@string/redirectHeader"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/redirectUsrLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/redirectUsrLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/redirectUsrLabel"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/redirectPwdLabel"
+        app:layout_constraintEnd_toEndOf="@+id/redirectHeader"
+        app:layout_constraintStart_toStartOf="@+id/redirectHeader"
+        app:layout_constraintTop_toBottomOf="@+id/redirectHeader" />
+
+    <TextView
+        android:id="@+id/redirectPwdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/RedirectPwdLabel"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/return_label"
+        app:layout_constraintEnd_toEndOf="@+id/redirectUsrLabel"
+        app:layout_constraintStart_toStartOf="@+id/redirectUsrLabel"
+        app:layout_constraintTop_toBottomOf="@+id/redirectUsrLabel" />
+
+    <Button
+        android:id="@+id/return_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="retour"
+        android:text="@string/return_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/redirectPwdLabel"
+        app:layout_constraintStart_toStartOf="@+id/redirectPwdLabel"
+        app:layout_constraintTop_toBottomOf="@+id/redirectPwdLabel" />
 </androidx.constraintlayout.widget.ConstraintLayout>
