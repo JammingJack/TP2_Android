@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TP2</string>
+    <string name="app_name">Workshop 2</string>
     <string name="splash_msg">Welcome</string>
     <string name="username_label">UserName</string>
     <string name="password_label">Password</string>

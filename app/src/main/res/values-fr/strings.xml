@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP 2</string>
+    <string name="splash_msg">Bienvenue</string>
+    <string name="username_label">Nom d\'utilisateur</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="loging_label">Accèder</string>
+    <string name="redirectHeader">Informations de compte</string>
+    <string name="redirectUsrLabel">Nom d\'utilisateur : </string>
+    <string name="RedirectPwdLabel">Mot de passe : </string>
+    <string name="return_label">Retour</string>
+</resources>

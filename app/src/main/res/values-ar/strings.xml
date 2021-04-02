@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">عمل تطبيقي 2</string>
+    <string name="splash_msg">مرحبا</string>
+    <string name="username_label">اسم المستخدم</string>
+    <string name="password_label">كلمة السر</string>
+    <string name="loging_label">دخول</string>
+    <string name="redirectHeader">معلومات الحساب</string>
+    <string name="redirectUsrLabel"> : اسم المستخدم</string>
+    <string name="RedirectPwdLabel"> : كلمة السر</string>
+    <string name="return_label">رجوع</string>
+</resources>
